@@ -5,7 +5,8 @@ langchain-openai # Added for OpenAI integration
 
 # Document Loaders & Processing
 pypdf # For PDF loading
-pandas # For reading SAS files (XPT, SAS7BDAT)
+pandas # For reading SAS files (XPT, SAS7BDAT) and Excel files (XLSX)
+openpyxl # Required by pandas to read .xlsx files
 
 # Text Splitting
 # langchain uses this implicitly, but good to be aware
