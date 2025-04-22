@@ -1,0 +1,23 @@
+# Core LangChain and community components
+langchain
+langchain-community
+langchain-openai # Added for OpenAI integration
+
+# Document Loaders & Processing
+pypdf # For PDF loading
+pandas # For reading SAS files (XPT, SAS7BDAT)
+
+# Text Splitting
+# langchain uses this implicitly, but good to be aware
+
+# Embeddings model
+sentence-transformers # Still using local embeddings, could switch to OpenAIEmbeddings if preferred
+
+# Vector Store
+faiss-cpu # Or faiss-gpu if you have CUDA setup
+
+# LLM Integration (Now OpenAI)
+openai # Added OpenAI library
+
+# Web App Framework
+streamlit
