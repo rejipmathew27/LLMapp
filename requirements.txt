@@ -22,3 +22,5 @@ openai # Added OpenAI library
 
 # Web App Framework
 streamlit
+
+hf-xet
